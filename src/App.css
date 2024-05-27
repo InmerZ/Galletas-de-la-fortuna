@@ -1,0 +1,79 @@
+/*---Importing Fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+/*---reset----*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.app__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: transform 0.4s ease;
+}
+
+.app__btn:hover {
+  transform: scale(1.2);
+}
+/*---App---*/
+.app {
+  background-image: url(assets/fortuna-1/fondo4.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.app__title {
+  font-size: 2.9em;
+  font-weight: 610;
+  text-shadow: 4px 4px rgba(255, 255, 255, 0.198);
+  text-align: center;
+}
+
+.app__container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__text {
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.349);
+  color: rgba(0, 0, 0, 0.654);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.app__title span{
+  display: block;
+}
